@@ -1,5 +1,6 @@
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export'
   // You can add more config options here as needed
 };
 
@@ -9,6 +10,7 @@ module.exports = nextConfig;
 // Injected content via Sentry wizard below
 
 const { withSentryConfig } = require("@sentry/nextjs");
+const { output } = require("framer-motion/client");
 
 module.exports = withSentryConfig(
   module.exports,
