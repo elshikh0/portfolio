@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.9.3",
     "@sentry/nextjs": "^8.48.0",
     "@types/react-beautiful-dnd": "^13.1.8",
     "clsx": "^2.1.1",
