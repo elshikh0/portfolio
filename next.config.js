@@ -6,9 +6,8 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
-
-// Injected content via Sentry wizard below
-
+// Commenting out the Sentry configuration
+/*
 const { withSentryConfig } = require("@sentry/nextjs");
 const { output } = require("framer-motion/client");
 
@@ -54,3 +53,4 @@ module.exports = withSentryConfig(
     automaticVercelMonitors: true,
   }
 );
+*/
